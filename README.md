@@ -6,11 +6,11 @@
 - 1.2 How many readers are there?
 - 1.3 What country are the readers from?
 
-The solution for each question is enabled in the file 
+The solution for each question is available in the file 
 [task_01.sql](https://github.com/lucasvenez/inkitt-challenge/blob/master/task_01.sql). 
 The code was prepared for the MySQL Database Management System.
 
-I noticed that maybe there is an inconsistence into `Visit` or `Read` tables. 
+I noticed maybe there is an inconsistence into `Visit` or `Read` tables. 
 Data into `Read.visitorId` or `Visit.visitorId` columns do not match each other.
 Changing `Read.visitorId` by `Read.visitId` generated the expected output.
 
