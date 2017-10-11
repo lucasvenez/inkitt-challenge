@@ -5,24 +5,11 @@ import pandas as pd
 visit = pd.read_csv('data/visits.csv')
 read  = pd.read_csv('data/reading.csv')
 story = pd.read_csv('data/stories.csv')
-
+#
+# Converting objects to datetime
+#
 read['tracking_time'] = pd.to_datetime(read['tracking_time'])
 read['created_at']    = pd.to_datetime(read['created_at'])
-
-print("=================================================")
-print("VISITS")
-for _, column in visit.iteritems():
-   print(column.name + ': ' + str(column.dtype))
-
-print("=================================================")
-print("READING")
-for _, column in read.iteritems():
-   print(column.name + ': ' + str(column.dtype))
-
-print("=================================================")
-print("STORIES")
-for _, column in story.iteritems():
-   print(column.name + ': ' + str(column.dtype))
 
 # Write the same query in Python and possibly with Pandas or Numpy;
 # or write it in R if you feel more comfortable.
