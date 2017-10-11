@@ -1,0 +1,10 @@
+black.list <- c('aboard', 'about', 'above', 'across', 'after', 'against', 'along', 'amid',
+                'among', 'anti', 'around', 'as', 'at', 'before', 'behind', 'below', 'beneath',
+                'beside', 'besides', 'between', 'beyond', 'but', 'by', 'concerning', 'considering',
+                'despite', 'down', 'during', 'except', 'excepting', 'excluding', 
+                'following', 'for', 'from', 'in', 'inside', 'into', 'like',
+                'minus', 'near', 'of', 'off', 'on', 'onto', 'opposite', 'outside', 'and', 'when', 'their',
+                'over', 'past', 'per', 'plus', 'regarding', 'round', 'save', 'since', 'his', 'which',
+                'than', 'through', 'to', 'toward', 'towards', 'under', 'underneath', 'unlike', 'were', 'was',
+                'until', 'up', 'upon', 'versus', 'via', 'with', 'within', 'without', 'the', 'he', 'is', 'are',
+                'she', 'it', 'they', 'we', 'our', 'you', 'your', 'your', 'mine', 'i', 'a', 'in', 'on', 'can')
