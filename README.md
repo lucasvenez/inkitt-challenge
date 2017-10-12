@@ -1,6 +1,6 @@
 # Inkitt Challenge Solutions
 
-## Task #1: Write an SQL query that sums up reading for horror readers by day.
+#### Task #1: Write an SQL query that sums up reading for horror readers by day.
 
 - 1.1 How much did they read?
 - 1.2 How many readers are there?
@@ -14,12 +14,12 @@ I noticed maybe there is an inconsistency into `Visit` or `Read` tables.
 Data into `Read.visitorId` or `Visit.visitorId` columns do not match each other.
 Changing `Read.visitorId` by `Read.visitId` generated the expected output.
 
-## Task #2: Write the same query in Python and possibly with Pandas or Numpy.
+#### Task #2: Write the same query in Python and possibly with Pandas or Numpy.
 
 All solutions for this task are avaiable at [`task_02.py`](https://github.com/lucasvenez/inkitt-challenge/blob/master/task_02.py).
 I used `pandas` in all solution steps.
 
-## Task #3: The Stories table contains a field called `Teaser`. How would you extract geographic location from this?
+#### Task #3: The Stories table contains a field called `Teaser`. How would you extract geographic location from this?
 
 The solution for this task are avaiable at [`task_03.r`](https://github.com/lucasvenez/inkitt-challenge/blob/master/task_03.r).
 
