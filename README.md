@@ -16,12 +16,12 @@ Changing `Read.visitorId` by `Read.visitId` generated the expected output.
 
 ## Task #2: Write the same query in Python and possibly with Pandas or Numpy.
 
-All solutions for this task are enabled at [`task_02.py`](https://github.com/lucasvenez/inkitt-challenge/blob/master/task_02.py).
+All solutions for this task are avaiable at [`task_02.py`](https://github.com/lucasvenez/inkitt-challenge/blob/master/task_02.py).
 I used `pandas` in all solution steps.
 
 ## Task #3: The Stories table contains a field called `Teaser`. How would you extract geographic location from this?
 
-The solution for this task are enabled at [`task_03.r`](https://github.com/lucasvenez/inkitt-challenge/blob/master/task_03.r).
+The solution for this task are avaiable at [`task_03.r`](https://github.com/lucasvenez/inkitt-challenge/blob/master/task_03.r).
 
 For this task I imported the countries names and acronyms available [here](http://www.nationsonline.org/oneworld/country_code_list.htm)
 using a Javascript code available [here](https://github.com/lucasvenez/inkitt-challenge/blob/master/task_03.countries.export.js). `getCountriesNames` function output was embeeded into the R file
